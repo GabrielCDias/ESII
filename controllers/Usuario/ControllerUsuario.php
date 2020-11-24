@@ -1,5 +1,5 @@
 <?php
-namespace controller;
+namespace controllers;
 
 $separador = DIRECTORY_SEPARATOR;
 $root = $_SERVER["DOCUMENT_ROOT"];
