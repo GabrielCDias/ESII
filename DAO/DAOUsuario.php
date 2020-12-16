@@ -1,8 +1,13 @@
 <?php
 namespace DAO;
-mysqli_report(MYSQLY_REPORT_STRICT);
-require_once('../models/Usuario.php');
-use model\Usuario;
+mysqli_report(MYSQLI_REPORT_STRICT);
+
+$ds = DIRECTORY_SEPARATOR;
+$base_dir = dirname(__FILE__).$ds;
+
+require($base_dir.'../models/Usuario.php');
+
+use models\Usuario;
 
 /**
  * Esta classe é responsável por fazer a comunicação com o banco de dados,
