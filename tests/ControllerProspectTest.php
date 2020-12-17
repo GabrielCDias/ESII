@@ -15,7 +15,7 @@ class UsuarioTest extends TestCase{
       $ctrlProspect = new ControllerProspect();
       $prospect = new Prospect();
 
-      $prospect->addProspect(null, 'Ivanor Thibes', 'thi@iva.com.br', '9999999', '', '8888888');
+      $prospect->addProspect(null, 'Thiago Alves', 'thiago18@gmail.com', '1234567', '', '8888888');
       try{
          $this->assertEquals(
             TRUE,
@@ -30,7 +30,7 @@ class UsuarioTest extends TestCase{
       $ctrlProspect = new ControllerProspect();
       $prospect = new Prospect();
 
-      $prospect->addProspect(19, 'Ivanor Thibes', 'thi@iva.com.br', '9999999', '', '777777');
+      $prospect->addProspect(19, 'Thiago Alves', 'thiago18@gmail.com', '1234567', '', '8888888');
       try{
          $this->assertEquals(
             TRUE,
