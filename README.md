@@ -1,2 +1,2 @@
 # ESII
-Sistema de Login e Cadastro.
+Sistema de Login e Cadastro em PHP.
